@@ -1,0 +1,35 @@
+-git clone https://
+
+-git add . or *
+
+-git commit -m 'initial commit'
+
+-git pull (pull for show someone config)
+
+-git push (push to server)
+
+
+
+…or create a new repository on the command line
+echo "# Website-News-" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/VIRAK33/Website-News-.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/VIRAK33/Website-News-.git
+git push -u origin master
+
+
+
+
+table_user_category(idname)_News(type)
+
+user: id name email password 
+company:id name email phone
+category: id name create at( timestamp)
+news: id title short_discription (text) description (long text) category_id user_id featur_image create_at(time stamp) 
+
+
+

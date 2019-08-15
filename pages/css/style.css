@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html, body{
+    font-family: arial;
+   
+}
+
+.nav-bar{
+    background-color: #333;
+    height:60px ;
+
+    margin: 0 auto;
+    overflow: auto;
+}
+.nav-bar .container{
+    background-color: #333;
+    height:60px ;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.nav-bar .container h1{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.nav-bar .container a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar .container ul {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.nav-bar .container ul li{
+    float: left;
+}
+
+.nav-bar .container ul li a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    
+}
+.nav-bar .container ul li .home{
+    display: block;
+    padding: 20px;
+    color: #f7c08a;
+    background-color: rgb(73, 66, 66);
+}
+.nav-bar .container ul li a:hover{
+    display: block;
+    padding: 20px;
+    color: #f7c08a;
+    background-color: rgb(73, 66, 66);
+    
+}
+
+.body{
+    background:linear-gradient(to right bottom, rgba(123, 124, 114, 0.5), rgba(65, 129, 108, 0.5)), url('../images/alcoholic-beverage-bed-bedroom-1579253.jpg'), center center/cover;
+    height: 600px;
+    background-repeat: no-repeat;
+   
+    min-width: 100%;
+    
+    
+}
+.body h1{
+    text-align: center;
+    padding-top: 170px;
+    font-size: 50px;
+    color: white;
+    padding-bottom:20px;
+    
+}
+.body h1 span{
+    color: #f7c08a;
+}
+
+.body p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+
+.body a{
+    display: inline-block;
+    color: white;
+    padding:20px;
+    text-align: center;
+    margin-top:40px;
+    background-color: #f7c08a;  
+    text-decoration: none;
+}
+.body a:hover{
+    display: inline-block;
+    color: white;
+    padding:20px;
+    text-align: center;
+    margin-top:40px;
+    background-color: #a88d71;  
+    cursor: pointer;
+}
+
+
+
+.home-info{
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.home-info .info-conten1{
+    width:50%;
+    float: left;
+    background:url('../images/architecture-dug-out-pool-family-1488327.jpg') no-repeat;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.home-info .info-conten2{
+    
+    height: 100%;
+    background: black;
+    width:50%;
+    float:right;   
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.home-info h1{
+    padding-top: 20px;
+    padding-bottom:20px;
+    
+}
+.home-info h1 span{
+    color: #f7c08a;
+    padding-bottom: 20px;
+}
+
+
+.home-info p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+    
+}
+
+.home-info a{
+    display: inline-block;
+    color: white;
+    padding:20px;
+    text-align: center;
+    margin-top:40px;
+    background-color: #f7c08a;  
+}
+.home-info a:hover{
+    display: inline-block;
+    color: white;
+    padding:20px;
+    text-align: center;
+    margin-top:40px;
+    background-color: #a88d71;  
+    cursor: pointer;
+}
+
+.foot .box{
+    width:33.3%;
+    float:left;
+    text-align: center;
+    box-sizing: border-box;
+    padding:50px;
+    background-color: white;
+    
+}
+
+.foot .m{
+    background-color: #f7c08a;
+}
+.clr{
+    clear: both;
+}
+
+.bottom{
+    margin: 0 auto;
+}
+
+.bottom p{
+    padding: 20px;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.about-body{
+    /* height: 300px; */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:20px;
+    
+}
+
+.about-body .text{
+    float: left;
+    width: 50%;
+    padding-bottom: 50px;
+}
+.about-body .text h1{
+    padding-bottom:20px;
+}
+.about-body .text h1 span{
+    color: #f7c08a;
+}
+
+.about-body .text p{
+    line-height: 30px;
+    font-family: Arial;
+}
+
+.about-body .about-img{
+    float: right;
+    width:50%;
+    min-height: 100%;
+    height: 200px;
+    border-radius: 50% ;
+    padding-top: 50px;
+}
+.about-body .about-img img{
+    width:100%;
+    max-width:400px;
+    border-radius: 50% 50%;
+    
+}
+
+ .about-contant{
+    clear: both;
+    color: aquamarine;
+    background: url('../images/apartment-architecture-atmosphere-271676.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+.about-contant h1{
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+.about-nav h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-contant .manager{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.about-contant .people1{
+    /* display: inline; */
+    background-color: #f7c08a;
+    padding:20px;
+    margin:20px;
+    border-radius: 5px 5px;
+    
+    
+}
+.about-contant .people1 .people img{
+    width:90px;
+    float: left;
+    border-radius: 100%;
+    
+   
+}
+
+.people p{
+    padding: 20px;
+    color: white;
+    
+}
+
+.about-contant .people2{
+    /* display: inline; */
+    
+    background-color: #f7c08a;
+    padding:20px;
+    margin:20px;
+    border-radius: 5px 5px;
+    
+}
+.about-contant .people2 .people img{
+    width:90px;
+    float: left;
+    border-radius: 100%;
+   
+}
+
+
+.contact-body{
+    max-width: 1100px ;
+    margin:0 auto;
+}
+
+.contact-body .text h1{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.contact-body .text p{
+    padding-bottom:20px;
+}
+.contact-body .text span{
+    color: #f7c08a;
+}
+
+.contact-body .form{
+}
+
+.contact-body .form p{
+    padding-top: 20px;
+    
+}
+.contact-body input{
+    padding-bottom: 20px;
+    width:100%;
+}
+
+.contact-body textarea{
+    width:100%;
+    height: 250px;
+}
+
+.contact-body .submit-btn{
+    padding-top:40px;
+    /* padding-left: 20px; */
+}
+
+.contact-body .submit-btn a{
+    padding:20px;
+    background-color: #333;
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.contact-body .submit-btn a:hover{
+    padding:20px;
+    background-color: rgb(70, 70, 70);
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.info{
+    display: block;
+    height: 120px;
+    background-color: rgb(78, 78, 78);
+    margin-top: 40px;
+}
+
+.info .location{
+    padding-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width:33.3%;
+    float: left;
+
+}
+
+.info .phone{
+    padding-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width:33.3%;
+    float: left;
+}
+
+.info .email{
+    padding-top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width:33.3%;
+    float: right;
+
+}
